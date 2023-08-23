@@ -26,6 +26,13 @@ main {
     width: 50vh;
 }
 
+@media(width<500px) {
+    main {
+        position: absolute;
+        top: 0%;
+    }
+}
+
 .heading {
     background-color: transparent;
     display: grid;
@@ -70,7 +77,7 @@ main {
     grid-column: 2;
     grid-row: 3/4;
     text-align: right;
-    padding-right: 5px;
+    margin: .5vh 5px 0px 0px;
 }
 
 .solar {
