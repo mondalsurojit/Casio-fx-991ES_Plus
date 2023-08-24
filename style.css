@@ -9,6 +9,8 @@
 }
 
 body {
+    display: grid;
+    place-items: center;
     background-color: black;
     height: 100vh;
     overflow: hidden;
@@ -20,17 +22,15 @@ main {
     align-items: center;
     box-shadow: 0px -1px 15px rgba(0, 0, 0, 0.854) inset;
     border-radius: 4% 4% 12% 12%;
-    height: 95vh;
+    height: 92vh;
     width: 48vh;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    margin: auto;
 }
 
 @media(width<500px) {
     main {
-        top: 47.5%;
+        top: 0%;
     }
 }
 
