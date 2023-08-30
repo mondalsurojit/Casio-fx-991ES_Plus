@@ -8,12 +8,7 @@
     text-decoration: none;
 }
 
-:root {
-    font-size: 62.5%;
-}
-
 body {
-    font-size: 1.6rem;
     display: grid;
     place-items: center;
     background-color: black;
@@ -55,13 +50,13 @@ main {
     background-color: transparent;
     font-weight: bolder;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 2.2rem;
+    font-size: 1.375rem;
     text-align: center;
 }
 
 .model {
     background-color: transparent;
-    font-size: 1rem;
+    font-size: 0.625rem;
     font-style: italic;
     grid-column: 1;
     grid-row: 2/3;
@@ -69,7 +64,7 @@ main {
 
 .headingtext1 {
     background-color: transparent;
-    font-size: 1rem;
+    font-size: 0.625rem;
     grid-column: 1;
     grid-row: 3/4;
     color: #07a293;
@@ -81,7 +76,7 @@ main {
 .headingtext2 {
     background-color: transparent;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: .7rem;
+    font-size: 0.4375rem;
     grid-column: 2;
     grid-row: 3/4;
     text-align: right;
@@ -135,7 +130,7 @@ main {
     padding: 10px 8px;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 1.25rem;
     overflow: hidden;
 }
 
@@ -162,7 +157,7 @@ main {
     align-items: center;
     justify-content: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1rem;
+    font-size: 0.625rem;
 }
 
 #replay {
@@ -177,7 +172,7 @@ main {
     border-radius: 100%;
     cursor: pointer;
     text-align: center;
-    font-size: .8rem;
+    font-size: 0.5rem;
     font-weight: bold;
     color: #5e7597;
     padding-top: 30%;
@@ -204,7 +199,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1.7rem;
+    font-size: 1.0625rem;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -227,7 +222,7 @@ main {
     align-items: center;
     justify-content: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: .8rem;
+    font-size: 0.5rem;
 }
 
 #del,
@@ -239,7 +234,7 @@ main {
     background-color: transparent;
     font-weight: bolder;
     font-family: 'Courier New', Courier, monospace;
-    font-size: .5rem;
+    font-size: 0.3125rem;
     position: absolute;
     top: 50%;
     left: 50%;
